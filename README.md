@@ -1,16 +1,14 @@
-# PDDL Property Checker Service for IPEXCO Platform
+(Adapted from: [https://github.com/r-eifler/property_checker_service](https://github.com/r-eifler/property_checker_service))
+
+
+# Domain-dependent Property Checker Service for IPEXCO Platform (Beluga Domain)
 
 ## Setup 
-
-Unless you want to change/update the planner service, we suggest running 
-the property checker in a docker container. 
-
-A pre-build docker image is provided on DockerHub: [Property Checker Service](https://hub.docker.com/repository/docker/eifler/property_checker_service/general).
 
 To build the docker image yourself run:
 
 ```
-docker build -t property-checker-service .
+docker build -t ipexco-property-checker-service-domdep .
 ```
 
 ### Dependencies
